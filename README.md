@@ -3,11 +3,11 @@
 
 À compléter :
 
-- NOM :
-- PRÉNOM :
-- GROUPE :
-- URL du site :
-- URL FIGMA :
+- NOM : Philippon
+- PRÉNOM : Melvyn 
+- GROUPE : C1
+- URL du site : https://vissport.netlify.app
+- URL FIGMA : https://www.figma.com/design/XdKVB9XwD6RCz9XOuO6ITt/Untitled?node-id=11-236&node-type=canvas&t=LNu4Nk1hv0HqYfPE-0
 
 ## Sujet
 
