@@ -87,22 +87,4 @@ body {
     margin: 10px 0;
 }
 
-/* ------------ Bouton de téléchargement (schedule__download-button) ------------ */
-.schedule__download-button {
-    background-color: #007BFF;
-    border: none;
-    border-radius: 5px;
-    padding: 10px 20px;
-    margin-top: 20px;
-}
 
-.schedule__download-button a {
-    color: #ffffff;
-    text-decoration: none;
-    font-weight: bold;
-    font-size: 14px;
-}
-
-.schedule__download-button:hover {
-    background-color: #0056b3;
-}

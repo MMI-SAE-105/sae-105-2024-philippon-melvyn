@@ -54,19 +54,3 @@ body {
     margin-bottom: 20px;
 }
 
-/* Bouton d'informations (form__button) */
-.form__button {
-    background-color: #007BFF;
-    border: none;
-    border-radius: 5px;
-    padding: 10px 20px;
-    color: #ffffff;
-    font-weight: bold;
-    font-size: 14px;
-    cursor: pointer;
-    text-transform: uppercase;
-}
-
-.form__button:hover {
-    background-color: #0056b3;
-}

@@ -1,6 +1,7 @@
 
 .footer {
     background-color: #000;
+    border-top: 1px solid #000;
     color: white;
     text-align: center;
     display: block;
@@ -9,79 +10,37 @@
 
 .footer__logo {
     width: 80px;
+    height: auto;
+}
+.footer__title {
+    font-size: 18px;
+    font-weight: bold;
     margin-bottom: 10px;
 }
 
-.footer__title {
-    font-size: 1.5rem;
-    margin: 10px 0;
-}
-
 .footer__subtitle {
-    font-size: 1rem;
-    margin: 5px 0;
+    font-size: 14px;
+    margin-bottom: 5px;
 }
 
 .footer__text {
-    font-size: 0.9rem;
-    margin: 5px 0;
+font-size: 12px;
+ margin-bottom: 10px;
 }
 
-.footer__social-logo {
+.footer__logo-link {
     width: 30px;
     margin: 5px;
     display: inline-block;
 }
 
-.footer__social-logo:hover {
-    opacity: 0.8;
-    cursor: pointer;
-}
-
-/* ------------ Pied de page (footer) ------------ */
-.footer {
-    background-color: #f9f9f9;
-    padding: 20px;
-    border-top: 1px solid #ddd;
-    text-align: center;
-}
-
-/* Lien et logo principal (footer__logo-link, footer__logo) */
-.footer__logo-link {
-    display: inline-block;
-    margin-bottom: 10px;
-}
-
-.footer__logo {
-    width: 100px;
-    height: auto;
-}
-
-/* Titre principal du footer (footer__title) */
-.footer__title {
-    font-size: 18px;
-    font-weight: bold;
-    color: #222;
-    margin-bottom: 10px;
-}
-
-/* Sous-titres du footer (footer__subtitle) */
-.footer__subtitle {
-    font-size: 14px;
-    color: #333;
-    margin-bottom: 5px;
-}
-
-/* Texte de contact et copyright (footer__text) */
-.footer__text {
-    font-size: 12px;
-    color: #555;
-    margin-bottom: 10px;
-}
-
-/* Icônes des réseaux sociaux (footer__social-logo) */
 .footer__social-logo {
     width: 30px;
     height: auto;
     margin: 0 5px;
+}
+
+.footer__social-logo:hover {
+    opacity: 0.8;
+    cursor: pointer;
 }

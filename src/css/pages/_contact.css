@@ -68,20 +68,7 @@ body {
     font-size: 14px;
 }
 
-.form__button {
-    background-color: #007BFF;
-    border: none;
-    border-radius: 5px;
-    padding: 10px 20px;
-    color: #ffffff;
-    font-weight: bold;
-    font-size: 14px;
-    cursor: pointer;
-}
 
-.form__button:hover {
-    background-color: #0056b3;
-}
 
 /* ------------ Section commentaires (main-content__comment-section) ------------ */
 .main-content__comment-section {
@@ -116,20 +103,7 @@ body {
     font-size: 14px;
 }
 
-.comment-section__button {
-    background-color: #007BFF;
-    border: none;
-    border-radius: 5px;
-    padding: 10px 20px;
-    color: #ffffff;
-    font-weight: bold;
-    font-size: 14px;
-    cursor: pointer;
-}
 
-.comment-section__button:hover {
-    background-color: #0056b3;
-}
 
 /* ------------ Section coordonnées (main-content__contact-info) ------------ */
 .main-content__contact-info {
