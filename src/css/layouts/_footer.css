@@ -1,0 +1,38 @@
+
+.footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+.footer__logo {
+    width: 80px;
+    margin-bottom: 10px;
+}
+
+.footer__title {
+    font-size: 1.5rem;
+    margin: 10px 0;
+}
+
+.footer__subtitle {
+    font-size: 1rem;
+    margin: 5px 0;
+}
+
+.footer__contact-info {
+    font-size: 0.9rem;
+    margin: 5px 0;
+}
+
+.footer__social-logo {
+    width: 30px;
+    margin: 5px;
+    display: inline-block;
+}
+
+.footer__social-logo:hover {
+    opacity: 0.8;
+    cursor: pointer;
+}

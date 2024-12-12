@@ -1,0 +1,68 @@
+/*Les styles du header (logo, menu, etc.).*/
+/* Header */
+.header {
+    background-color: #f4f4f4;
+    /* Fond clair */
+    padding: 20px;
+    text-align: center;
+    position: relative;
+}
+
+.header__logo {
+    width: 100px;
+    position: absolute;
+    left: 20px;
+    top: 20px;
+}
+
+.header__title {
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: #333;
+    /* Texte sombre */
+}
+
+.header__nav {
+    margin-top: 10px;
+}
+
+.header__nav-list {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    list-style: none;
+    padding: 0;
+}
+
+.header__nav-link {
+    text-decoration: none;
+    font-size: 1rem;
+    color: #007bff;
+    /* Lien bleu */
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+.header__nav-link:hover {
+    color: #0056b3;
+    /* Lien bleu foncé au survol */
+}
+
+.header__image {
+    width: 100%;
+    margin-top: 20px;
+    border-radius: 10px;
+    /* Coins arrondis */
+}
+
+.header__subtitle {
+    font-size: 2rem;
+    margin-top: 20px;
+    color: #333;
+}
+
+.header__dates {
+    font-size: 1.5rem;
+    color: #555;
+    margin-bottom: 20px;
+}
