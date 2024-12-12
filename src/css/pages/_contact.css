@@ -1,0 +1,158 @@
+/* ------------ Corps global (Body) ------------ */
+body {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+}
+
+/* ------------ Section principale (main-content) ------------ */
+.main-content {
+    padding: 20px;
+}
+
+/* ------------ Section d'introduction (main-content__intro) ------------ */
+.main-content__intro {
+    margin-bottom: 30px;
+}
+
+.main-content__intro-text {
+    font-size: 16px;
+    color: #333;
+    margin-bottom: 10px;
+    line-height: 1.6;
+}
+
+.main-content__intro-image {
+    width: 100%;
+    max-width: 300px;
+    height: auto;
+    float: right;
+    margin-left: 20px;
+    border-radius: 8px;
+}
+
+/* ------------ Section formulaire (main-content__form-section) ------------ */
+.main-content__form-section {
+    margin-top: 40px;
+    margin-bottom: 40px;
+    background-color: #ffffff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 20px;
+}
+
+.main-content__form-title {
+    font-size: 20px;
+    font-weight: bold;
+    color: #222;
+    margin-bottom: 15px;
+    text-align: center;
+}
+
+.main-content__form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.form__label {
+    font-size: 14px;
+    color: #444;
+}
+
+.form__input {
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 14px;
+}
+
+.form__button {
+    background-color: #007BFF;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    color: #ffffff;
+    font-weight: bold;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+.form__button:hover {
+    background-color: #0056b3;
+}
+
+/* ------------ Section commentaires (main-content__comment-section) ------------ */
+.main-content__comment-section {
+    margin-top: 40px;
+    padding: 20px;
+    background-color: #ffffff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+}
+
+.main-content__comment-title {
+    font-size: 20px;
+    font-weight: bold;
+    color: #222;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.main-content__comment-description {
+    font-size: 14px;
+    color: #444;
+    margin-bottom: 15px;
+    text-align: center;
+}
+
+.comment-section__textarea {
+    width: 100%;
+    min-height: 100px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 14px;
+}
+
+.comment-section__button {
+    background-color: #007BFF;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    color: #ffffff;
+    font-weight: bold;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+.comment-section__button:hover {
+    background-color: #0056b3;
+}
+
+/* ------------ Section coordonnées (main-content__contact-info) ------------ */
+.main-content__contact-info {
+    margin-top: 40px;
+    text-align: center;
+}
+
+.main-content__contact-title {
+    font-size: 20px;
+    font-weight: bold;
+    color: #222;
+    margin-bottom: 10px;
+}
+
+.main-content__contact-details {
+    font-size: 14px;
+    color: #444;
+    margin-bottom: 5px;
+}
+
+.main-content__contact-phone {
+    font-size: 14px;
+    color: #444;
+    font-weight: bold;
+    margin-top: 10px;
+}

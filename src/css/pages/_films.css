@@ -1,0 +1,72 @@
+/* ------------ Corps global (Body) ------------ */
+body {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+}
+
+/* ------------ Section principale (main-content) ------------ */
+.main-content {
+    padding: 20px;
+}
+
+/* Section d'introduction (main-content__intro) */
+.main-content__intro {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.main-content__intro-text {
+    font-size: 18px;
+    color: #333;
+}
+
+/* ------------ Articles des films (main-content__article) ------------ */
+.main-content__article {
+    background-color: #ffffff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.main-content__article-image {
+    width: 100%;
+    max-width: 300px;
+    height: auto;
+    margin: 0 auto 15px;
+    display: block;
+    border-radius: 8px;
+}
+
+.main-content__article-title {
+    font-size: 20px;
+    font-weight: bold;
+    color: #222;
+    margin-bottom: 10px;
+}
+
+.main-content__article-description {
+    font-size: 14px;
+    color: #444;
+    margin-bottom: 20px;
+}
+
+/* Bouton d'informations (form__button) */
+.form__button {
+    background-color: #007BFF;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    color: #ffffff;
+    font-weight: bold;
+    font-size: 14px;
+    cursor: pointer;
+    text-transform: uppercase;
+}
+
+.form__button:hover {
+    background-color: #0056b3;
+}

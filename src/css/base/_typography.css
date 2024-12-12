@@ -1,1 +1,13 @@
 /*Contient les règles générales pour la typographie de votre projet polices tailles de texte espacements*/
+
+
+
+.section__paragraph{
+font-size: 20px;
+font-family: Arial, Helvetica, sans-serif;
+}
+
+.section_title{
+
+    
+}

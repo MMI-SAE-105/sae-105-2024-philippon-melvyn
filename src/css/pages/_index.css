@@ -1,0 +1,181 @@
+/* ------------ Corps global (Body) ------------ */
+body {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+}
+
+/* ------------ En-tête (header) ------------ */
+.header {
+    text-align: center;
+    padding: 20px;
+    background-color: #ffffff;
+    border-bottom: 1px solid #ddd;
+}
+
+.header__logo {
+    width: 100px;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+.header__title {
+    font-size: 24px;
+    font-weight: bold;
+    color: #222;
+    margin-bottom: 5px;
+}
+
+.header__menu {
+    margin-bottom: 15px;
+}
+
+.header__nav {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.header__nav-link {
+    font-size: 14px;
+    color: #007BFF;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.header__nav-link:hover {
+    text-decoration: underline;
+}
+
+.header__image {
+    width: 100%;
+    max-width: 600px;
+    height: auto;
+    margin: 20px 0;
+}
+
+.header__subtitle {
+    font-size: 20px;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.header__dates {
+    font-size: 16px;
+    color: #555;
+    margin-bottom: 20px;
+}
+
+/* ------------ Section principale (main-content) ------------ */
+.main-content {
+    padding: 20px;
+}
+
+/* ------------ Introduction (main-content__section) ------------ */
+.main-content__section {
+    margin-bottom: 30px;
+}
+
+.section__paragraph {
+    font-size: 16px;
+    color: #444;
+    line-height: 1.6;
+    margin-bottom: 15px;
+}
+
+.section__image {
+    width: 100%;
+    max-width: 500px;
+    height: auto;
+    display: block;
+    margin: 0 auto 20px;
+}
+
+/* ------------ Section avec boutons (section) ------------ */
+.section {
+    margin-bottom: 40px;
+    text-align: center;
+}
+
+.section__image_propos,
+.section__image_liens {
+    width: 100%;
+    max-width: 400px;
+    height: auto;
+    margin: 0 auto 10px;
+    border-radius: 8px;
+}
+
+.section__title {
+    font-size: 18px;
+    font-weight: bold;
+    color: #222;
+    margin-bottom: 10px;
+}
+
+/* ------------ Formulaires et boutons (form) ------------ */
+.form {
+    margin-top: 10px;
+}
+
+.form__button {
+    background-color: #007BFF;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    color: #ffffff;
+    font-weight: bold;
+    font-size: 14px;
+    cursor: pointer;
+    text-transform: uppercase;
+}
+
+.form__button:hover {
+    background-color: #0056b3;
+}
+
+/* ------------ Pied de page (footer) ------------ */
+.footer {
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-top: 1px solid #ddd;
+    text-align: center;
+}
+
+.footer__title {
+    font-size: 18px;
+    font-weight: bold;
+    color: #222;
+    margin-bottom: 10px;
+}
+
+.footer__subtitle {
+    font-size: 14px;
+    color: #333;
+    margin-bottom: 5px;
+}
+
+.footer__text {
+    font-size: 12px;
+    color: #555;
+    margin-bottom: 10px;
+}
+
+.footer__social-logo {
+    width: 30px;
+    height: auto;
+    margin: 0 5px;
+}
+
+/* Carré aux bordures dorées autour des images de liens (section__image_liens) */
+.section__image_liens {
+    display: inline-block;
+    padding: 10px;
+    border: 3px solid gold;
+    border-radius: 5px;
+    margin: 10px auto;
+    width: 100%;
+    max-width: 400px;
+    height: auto;
+}
