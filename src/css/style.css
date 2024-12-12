@@ -1,22 +1,22 @@
 /* Typographie */
-@import 'src/css/base/_typography.css';
+@import "base/_typography.css";
 
 /* Composants */
-@import 'src/css/components/_buttons.css';
-@import 'src/css/components/_forms.css';
+@import "components/_buttons.css";
+@import "components/_forms.css";
 
 /* Mise en page */
-@import 'src/css/layouts/_footer.css';
-@import 'src/css/layouts/_header.css';
-@import 'src/css/layouts/_main.css';
+@import "layouts/_footer.css";
+@import "layouts/_header.css";
+@import "layouts/_main.css";
 
 /* Pages spécifiques */
-@import 'src/css/pages/_activités.css';
-@import 'src/css/pages/_contact.css';
-@import 'src/css/pages/_films.css';
-@import 'src/css/pages/_index.css';
-@import 'src/css/pages/_lieu.css';
-@import 'src/css/pages/_programme.css';
+@import "pages/_activités.css";
+@import "pages/_contact.css";
+@import "pages/_films.css";
+@import "pages/_index.css";
+@import "pages/_lieu.css";
+@import "pages/_programme.css";
 
 /* Variables */
-@import 'src/css/utils/_variable.css';
+@import "utils/_variable.css";

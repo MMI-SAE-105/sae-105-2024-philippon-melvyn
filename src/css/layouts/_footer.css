@@ -1,9 +1,9 @@
 
 .footer {
-    background-color: #333;
+    background-color: #000;
     color: white;
     text-align: center;
-    padding: 20px;
+    padding: 20;
 }
 
 .footer__logo {
@@ -21,7 +21,7 @@
     margin: 5px 0;
 }
 
-.footer__contact-info {
+.footer__text {
     font-size: 0.9rem;
     margin: 5px 0;
 }
