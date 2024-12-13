@@ -10,9 +10,9 @@ font-size: 16px;
     line-height: 1.6;
     margin-bottom: 15px;
 }
-
-.article-descriptionb,
-.article-titleb,
+.mt,
+.carousel__text,
+.carousel_p,
 .schedule__day-name,
 .schedule__time,
 .section__paragraph_b {
@@ -22,5 +22,14 @@ font-size: 16px;
     color: white;
     line-height: 1.6;
     margin-bottom: 15px;
+
+}
+
+.title {
+font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 40px;
+    color: black;
+    
 
 }

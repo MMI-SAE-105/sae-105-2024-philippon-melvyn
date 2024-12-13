@@ -17,21 +17,25 @@
         </a>
         <h2 class="header__name">VIS’SPORT</h2>
         <menu class="header__menu">
-        <button class="menu-toggle" aria-expanded="false" aria-controls="menu">☰</button>
-        <nav id="menu" class="menu">
-             <ul class="header__menu-list">
-                <li class="header__menu-item"><a href="programme.html" class="header__menu-link">Programme</a></li>
-                <li class="header__menu-item"><a href="lieu.html" class="header__menu-link">Lieu</a></li>
-                <li class="header__menu-item"><a href="activités.html" class="header__menu-link">Activités</a></li>
-                <li class="header__menu-item"><a href="films.html" class="header__menu-link">Films</a></li>
-                <li class="header__menu-item"><a href="contact.html" class="header__menu-link">Contact</a></li>
-            </ul>
-        </nav>
+        <div class="menu-container">
+            <button class="menu-toggle" aria-expanded="false" aria-controls="menu">☰</button>
+            <nav id="menu" class="menu">
+                <button class="menu-close" aria-label="Fermer le menu">✖</button>
+                <ul class="header__menu-list">
+                    <li class="header__menu-item"><a href="programme.html" class="header__menu-link">Programme</a></li>
+                    <li class="header__menu-item"><a href="lieu.html" class="header__menu-link">Lieu</a></li>
+                    <li class="header__menu-item"><a href="activités.html" class="header__menu-link">Activités</a></li>
+                    <li class="header__menu-item"><a href="films.html" class="header__menu-link">Films</a></li>
+                    <li class="header__menu-item"><a href="contact.html" class="header__menu-link">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
         </menu>
         <img src="assets/image-3.webp" alt="Affiche de la page d'Accueil" class="header__image " loading="lazy">
-        <h1 class="header__title">Bienvenue au Vis'Sport</h1>
-        <h2 class="header__title">18-23 AOUT 2025</h2>
+        <script src="src/js/menu.js" defer></script>
     </header>
+    <h1 class="title">Bienvenue au Vis'Sport</h1>
+    <h2 class="title">18-23 AOUT 2025</h2>
     <main class="main-content">
         <div class="main-content__section">
             <section class="section">
