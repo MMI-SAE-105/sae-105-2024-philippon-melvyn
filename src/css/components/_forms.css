@@ -20,3 +20,15 @@
 .form__button:hover {
     background-color: #D01515;
 }
+
+.form__label {
+    font-size: 14px;
+    color: #444;
+}
+
+.form__input {
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 14px;
+}

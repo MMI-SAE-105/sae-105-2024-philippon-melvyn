@@ -1,29 +1,6 @@
-/* ------------ Corps global (Body) ------------ */
-body {
-    font-family: sans-serif;
-    margin: 0;
-    padding: 0;
-    background-color: #f9f9f9;
-}
 
 
 
-/* ------------ Section principale (main-content) ------------ */
-.main-content {
-    padding: 20px;
-}
-
-/* ------------ Introduction (main-content__section) ------------ */
-.main-content__section {
-    margin-bottom: 30px;
-}
-
-.section__paragraph {
-    font-size: 16px;
-    color: #444;
-    line-height: 1.6;
-    margin-bottom: 15px;
-}
 
 .section__image {
     width: 100%;
@@ -33,13 +10,13 @@ body {
     margin: 0 auto 20px;
 }
 
-/* ------------ Section avec boutons (section) ------------ */
+
 .section {
     margin-bottom: 40px;
     text-align: center;
 }
 
-.section__image_propos,
+
 .section__image_liens {
     width: 100%;
     max-width: 400px;
@@ -53,6 +30,21 @@ body {
     font-weight: bold;
     color: #222;
     margin-bottom: 10px;
+}
+
+.section__image_propos1 {
+width: 100%;
+    max-width: 200px;
+    height: auto;
+    margin: 0 auto 10px;
+    border-radius: 8px;
+    display: flex;
+        align-items: center;
+        gap: 20px;
+        width: 40%;
+        height: auto;
+        width: 60%;
+        text-align: left;
 }
 
 /* Carré aux bordures dorées autour des images de liens (section__image_liens) */

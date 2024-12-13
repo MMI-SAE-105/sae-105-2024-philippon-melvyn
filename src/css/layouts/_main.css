@@ -1,4 +1,4 @@
-/* Main Content */
+
 .main-content {
     padding: 20px;
     background-color: #fff;
@@ -50,3 +50,10 @@
     max-width: 100%;
 }
 
+
+.main-content__article,
+.schedule__day,
+.section_bande {
+background: radial-gradient(circle, #F8783D, #FCB92A);
+}
+    
