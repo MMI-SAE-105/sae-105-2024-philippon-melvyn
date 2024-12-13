@@ -18,9 +18,8 @@
 }
 
 
-
-.form__button_film{
-padding: 10px 20px;
+.form__button_index{
+padding: 10px 30px;
     background-color: black;
     color: white;
     border: none;
@@ -32,6 +31,7 @@ padding: 10px 20px;
     position: absolute;
     right: 30px;
     cursor: pointer;
+    margin-top: -230px;
 }
 .form__button:hover {
     background-color: #D01515;
@@ -47,4 +47,33 @@ padding: 10px 20px;
     border: 1px solid #ddd;
     border-radius: 5px;
     font-size: 14px;
+}
+
+.form__button_index2 {
+    padding: 10px 20px;
+    background-color: black;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    
+}
+
+.form__button_film{
+    padding: 10px 30px;
+        background-color: black;
+        color: white;
+        border: none;
+        border-radius: 5px;
+        font-size: 1rem;
+        font-weight: bold;
+        cursor: pointer;
+        transition: background-color 0.3s;
+        position: absolute;
+        right: 30px;
+        cursor: pointer;
+        margin-top: -5px;
 }

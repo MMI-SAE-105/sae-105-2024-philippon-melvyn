@@ -136,12 +136,10 @@ position: fixed;
      font-size: 18px;
  }
 
- /* --- Menu déroulant --- */
  .menu-container {
      position: relative;
  }
 
- /* Bouton hamburger */
  .menu-toggle {
      font-size: 24px;
      background: none;
@@ -151,7 +149,6 @@ position: fixed;
      z-index: 100;
  }
 
- /* Menu (fermé par défaut) */
  .menu {
      position: fixed;
      top: 0;
@@ -169,12 +166,10 @@ position: fixed;
      align-items: center;
  }
 
- /* Menu ouvert */
  .menu[aria-expanded="true"] {
      transform: translateY(0);
  }
 
- /* Liens du menu */
  .header__menu-list {
      list-style: none;
      margin: 0;
@@ -197,7 +192,6 @@ position: fixed;
      color: gold;
  }
 
- /* Bouton de fermeture */
  .menu-close {
      position: absolute;
      top: 0px;
